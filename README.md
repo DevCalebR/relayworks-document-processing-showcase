@@ -9,8 +9,8 @@ RelayWorks Document Processing Kit is a self-hosted developer product that trans
 ## Buy RelayWorks
 
 - Website: [https://getrelayworks.com](https://getrelayworks.com)
-- Gumroad: [GUMROAD_URL_REQUIRED](GUMROAD_URL_REQUIRED)
-- Buy Now: [GUMROAD_URL_REQUIRED](GUMROAD_URL_REQUIRED)
+- Gumroad: [RelayWorks AI Document Processing Kit](https://calebroge5.gumroad.com/l/djzlrg)
+- **[Buy Now](https://calebroge5.gumroad.com/l/djzlrg)**
 
 ## Why it exists
 
@@ -94,7 +94,7 @@ These screenshots are approved public marketing images from the product workflow
 
 ## Demo video
 
-The local project includes a large launch demo video, but the full video is not committed to this public showcase repository. See [demo/README.md](demo/README.md) for the current verified demo reference.
+Watch the approved demo on the [RelayWorks website](https://getrelayworks.com), where it shows the local PDF-to-package workflow. The large source video is intentionally not committed here. See [demo/README.md](demo/README.md) for details.
 
 ## Technical stack overview
 
@@ -110,7 +110,7 @@ See [docs/architecture.md](docs/architecture.md) for the public architecture sum
 
 ## Requirements overview
 
-Buyers should be comfortable with local developer tooling. The private product documentation lists a Python backend, Node.js frontend, npm, and a separately installed PDF conversion dependency available from the backend shell path.
+Buyers should be comfortable with local developer tooling. macOS or Linux is recommended, along with Python 3.11, Node.js 20 or 22, npm, Marker installed separately, and local filesystem access.
 
 See [docs/requirements.md](docs/requirements.md) for the public requirements summary.
 
@@ -147,7 +147,9 @@ No. Do not expect hosted accounts, production authentication, billing, cloud sto
 
 ### Where can I buy it?
 
-Use the Buy Now link once the verified Gumroad URL has been added: [GUMROAD_URL_REQUIRED](GUMROAD_URL_REQUIRED).
+Purchase the source-code kit from the verified [Gumroad product page](https://calebroge5.gumroad.com/l/djzlrg).
+
+**[Buy RelayWorks now](https://calebroge5.gumroad.com/l/djzlrg)**
 
 ## Documentation
 

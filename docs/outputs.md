@@ -13,6 +13,8 @@ RelayWorks Document Processing Kit is designed to turn PDFs into AI-ready output
 - Extracted images where available from the PDF workflow.
 - Downloadable ZIP packages for handoff or storage.
 
+Actual outputs depend on the content and structure of the source PDF.
+
 ## Common downstream uses
 
 - RAG ingestion.

@@ -1,29 +1,23 @@
 # Architecture
 
-RelayWorks Document Processing Kit is presented as a self-hosted developer product built around a FastAPI backend and a Next.js frontend.
+RelayWorks Document Processing Kit is a self-hosted developer product built around a Next.js interface and FastAPI backend.
 
 ## Public architecture summary
 
 ```text
-PDF upload
-  -> local processing workflow
-  -> generated document outputs
-  -> review workspace
-  -> downloadable package
+Browser
+  -> Next.js interface
+  -> FastAPI backend
+  -> local background job
+  -> Marker CLI
+  -> transformation and export pipeline
+  -> downloadable output package
 ```
 
-## Backend
+The browser interface provides goal selection, PDF upload, processing status, output review, and package download. The FastAPI backend coordinates local processing jobs. A local job invokes the separately installed Marker CLI, after which the product's transformation and export pipeline assembles reviewable files and a downloadable package.
 
-The paid product is described as using FastAPI for the API layer, background conversion workflow, job status, output generation, and download endpoints.
-
-## Frontend
-
-The paid product is described as using Next.js and React for the document workspace, goal selection, processing status, output review, and package download flow.
-
-## Processing model
-
-RelayWorks is local and self-hosted. Buyers run the backend and frontend in their own environment, keeping PDFs and generated outputs under their own control.
+Buyers run the workflow in their own environment so source PDFs and generated outputs remain under their control.
 
 ## Repository boundary
 
-This public repository does not include backend modules, frontend source files, parser logic, export logic, job logic, or customer packages. It only documents the product for evaluation.
+This overview intentionally excludes proprietary endpoint, parser, job, transformation, export, and packaging implementation details. This public repository contains no backend modules, frontend source, customer files, or generated packages.
