@@ -1,0 +1,17 @@
+# Local files
+.DS_Store
+*.log
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Generated or private artifacts
+storage/
+output/
+exports/
+leads/
+*.zip
+*.pdf
+*.mp4
