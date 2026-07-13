@@ -6,6 +6,17 @@ RelayWorks Document Processing Kit is a self-hosted developer product that trans
 
 > This is a public showcase repository for product evaluation. The paid FastAPI and Next.js source code is distributed through Gumroad after purchase and is not included in this repository.
 
+## Inspect Real Outputs
+
+[Download the RelayWorks Sample Output Pack](https://raw.githubusercontent.com/DevCalebR/relayworks-document-processing-showcase/main/sample-output/relayworks-sample-output-pack.zip) to inspect real results from the local Knowledge Base workflow. The ZIP contains:
+
+- Markdown, HTML, structured JSON, and plain-text outputs
+- A processing report and goal-oriented output
+- Three extracted images
+- Source, redistribution, workflow, and quality notes
+
+Explore RelayWorks at [getrelayworks.com](https://getrelayworks.com) or **[Buy Now](https://calebroge5.gumroad.com/l/djzlrg)**.
+
 ## Buy RelayWorks
 
 - Website: [https://getrelayworks.com](https://getrelayworks.com)
