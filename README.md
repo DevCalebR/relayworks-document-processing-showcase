@@ -34,13 +34,13 @@ All images below are approved captures from the current product workflow.
 
 | Goal selection | Processing complete |
 | --- | --- |
-| ![RelayWorks goal selection](screenshots/goal-selection.png) | ![RelayWorks processing complete](screenshots/processing-complete.png) |
+| ![RelayWorks goal selection](docs/assets/screenshots/goal-selection.png) | ![RelayWorks processing complete](docs/assets/screenshots/processing-complete.png) |
 
 | Markdown review | Structured JSON |
 | --- | --- |
-| ![RelayWorks Markdown output](screenshots/markdown-output.png) | ![RelayWorks structured JSON output](screenshots/structured-json.png) |
+| ![RelayWorks Markdown output](docs/assets/screenshots/markdown-output.png) | ![RelayWorks structured JSON output](docs/assets/screenshots/structured-json.png) |
 
-Additional captures: [homepage](screenshots/homepage.png) and [download package](screenshots/download-package.png). The approved demo video is linked from [`demo/README.md`](demo/README.md).
+Additional captures: [homepage](docs/assets/screenshots/homepage.png) and [download package](docs/assets/screenshots/download-package.png). The approved demo video is linked from [`demo/README.md`](demo/README.md).
 
 ## Architecture
 
