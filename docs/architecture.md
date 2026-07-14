@@ -4,14 +4,15 @@ RelayWorks Document Processing Kit is a self-hosted developer product built arou
 
 ## Public architecture summary
 
-```text
-Browser
-  -> Next.js interface
-  -> FastAPI backend
-  -> local background job
-  -> Marker CLI
-  -> transformation and export pipeline
-  -> downloadable output package
+```mermaid
+flowchart LR
+    B[Browser] --> N[Next.js interface]
+    N --> F[FastAPI backend]
+    F --> J[Local background job]
+    J --> M[Marker CLI]
+    M --> T[Transformation and export pipeline]
+    T --> O[Reviewable outputs]
+    O --> Z[Downloadable package]
 ```
 
 The browser interface provides goal selection, PDF upload, processing status, output review, and package download. The FastAPI backend coordinates local processing jobs. A local job invokes the separately installed Marker CLI, after which the product's transformation and export pipeline assembles reviewable files and a downloadable package.
